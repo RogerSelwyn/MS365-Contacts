@@ -3,7 +3,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/rogerselwyn/ms365-contacts/badge)](https://www.codefactor.io/repository/github/rogerselwyn/ms365-contacts) [![Downloads for latest release](https://img.shields.io/github/downloads/RogerSelwyn/ms365-contacts/latest/total.svg)](https://github.com/RogerSelwyn/ms365-contacts/releases/latest) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RogerSelwyn/MS365-Contacts/total?label=downloads%40all)
 
 
-![GitHub release](https://img.shields.io/github/v/release/RogerSelwyn/ms365-contacts) [![maintained](https://img.shields.io/maintenance/yes/2025.svg)](#) [![maintainer](https://img.shields.io/badge/maintainer-%20%40RogerSelwyn-blue.svg)](https://github.com/RogerSelwyn) [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration) [![Community Forum](https://img.shields.io/badge/community-forum-brightgreen.svg)](https://community.home-assistant.io/t/office-365-contacts-access)
+![GitHub release](https://img.shields.io/github/v/release/RogerSelwyn/ms365-contacts) [![maintained](https://img.shields.io/maintenance/yes/2025.svg)](#) [![maintainer](https://img.shields.io/badge/maintainer-%20%40RogerSelwyn-blue.svg)](https://github.com/RogerSelwyn) [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration) [![Community Forum](https://img.shields.io/badge/community-forum-brightgreen.svg)](https://community.home-assistant.io/t/office-365-contacts-access)
 
 # Microsoft 365 Contacts Integration for Home Assistant
 
