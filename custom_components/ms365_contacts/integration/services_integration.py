@@ -32,8 +32,7 @@ class ContactServices:
         )
         self._add_to_query(call.data, query, ATTR_GIVEN_NAME, "givenName")
         self._add_to_query(call.data, query, ATTR_SURNAME, "surname")
-        email = call.data.get(ATTR_EMAIL, None)
-        if email:
+        if email := call.data.get(ATTR_EMAIL, None):
             query.any(
                 collection="emailAddresses",
                 attribute="address",
@@ -47,8 +46,7 @@ class ContactServices:
         return {"contacts": [MS365Contact(contact) for contact in contacts]}
 
     def _add_to_query(self, data, query: Query, ms365attr, msattr):
-        attribute = data.get(ms365attr, None)
-        if attribute:
+        if attribute := data.get(ms365attr, None):
             query.on_attribute(msattr).contains(attribute)
 
 
