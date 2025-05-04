@@ -1,0 +1,18 @@
+contacts_search:
+  fields:
+    given_name:
+      example: Joe
+      required: false
+      selector:
+        text:
+    surname:
+      example: Bloggs
+      required: false
+      selector:
+        text:
+    email:
+      example: joe.bloggs@nospam.com
+      required: false
+      selector:
+        text:
+

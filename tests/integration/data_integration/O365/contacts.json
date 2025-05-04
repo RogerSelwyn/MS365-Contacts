@@ -1,0 +1,111 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('fake-user-id')/contacts",
+    "value": [
+        {
+            "@odata.etag": "W/\"EQAAABYAAACoiRErLbiNRJDCFyMjq4khAAkV3Gud\"",
+            "id": "contact1",
+            "createdDateTime": "2015-07-19T13:59:17Z",
+            "lastModifiedDateTime": "2025-04-06T02:37:36Z",
+            "changeKey": "changekey1",
+            "categories": [],
+            "parentFolderId": "parent-folder-id",
+            "birthday": null,
+            "fileAs": "Roger Bloggs",
+            "displayName": "Roger Bloggs",
+            "givenName": "Roger",
+            "initials": "R.B.",
+            "middleName": null,
+            "nickName": null,
+            "surname": "Bloggs",
+            "title": null,
+            "yomiGivenName": null,
+            "yomiSurname": null,
+            "yomiCompanyName": "",
+            "generation": null,
+            "imAddresses": [],
+            "jobTitle": "",
+            "companyName": null,
+            "department": "",
+            "officeLocation": "",
+            "profession": null,
+            "businessHomePage": "",
+            "assistantName": "",
+            "manager": "",
+            "homePhones": [
+                "+44 1234 567890"
+            ],
+            "mobilePhone": "+447712567890",
+            "businessPhones": [],
+            "spouseName": "",
+            "personalNotes": "",
+            "children": [],
+            "emailAddresses": [
+                {
+                    "name": "Roger Bloggs ",
+                    "address": "roger.bloggs@nospam.com"
+                },
+                {
+                    "name": "Roger Bloggs (roger@bloggs.com)",
+                    "address": "roger@bloggs.com"
+                }
+            ],
+            "homeAddress": {},
+            "businessAddress": {},
+            "otherAddress": {}
+        },
+        {
+            "@odata.etag": "W/\"EQAAABYAAACoiRErLbiNRJDCFyMjq4khAAkV3Gw1\"",
+            "id": "contact2",
+            "createdDateTime": "2015-07-19T13:59:28Z",
+            "lastModifiedDateTime": "2025-04-06T02:37:42Z",
+            "changeKey": "Echangekey2",
+            "categories": [],
+            "parentFolderId": "parent-folder-id",
+            "birthday": null,
+            "fileAs": "Selwyn, Roger",
+            "displayName": "Roger Selwyn",
+            "givenName": "Roger",
+            "initials": "R.S.",
+            "middleName": null,
+            "nickName": null,
+            "surname": "Selwyn",
+            "title": null,
+            "yomiGivenName": null,
+            "yomiSurname": null,
+            "yomiCompanyName": "",
+            "generation": null,
+            "imAddresses": [],
+            "jobTitle": "",
+            "companyName": null,
+            "department": "",
+            "officeLocation": "",
+            "profession": null,
+            "businessHomePage": "",
+            "assistantName": "",
+            "manager": "",
+            "homePhones": [
+                "+44 0987 654321"
+            ],
+            "mobilePhone": "+44 7709 654321",
+            "businessPhones": [],
+            "spouseName": "",
+            "personalNotes": "personal notes",
+            "children": [],
+            "emailAddresses": [
+                {
+                    "name": "Roger Selwyn",
+                    "address": "roger.selwyn@nospam.com"
+                }
+            ],
+            "homeAddress": {
+                "street": "Here",
+                "city": "There",
+                "state": "Everywhere",
+                "countryOrRegion": "Europe",
+                "postalCode": "ZZ11 1ZZ"
+            },
+            "businessAddress": {},
+            "otherAddress": {}
+        }
+    ]
+}

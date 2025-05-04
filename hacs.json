@@ -1,0 +1,8 @@
+{
+    "name": "Microsoft 365 - Contacts",
+    "zip_release": true,
+    "filename": "ms365_contacts.zip",
+    "homeassistant": "2024.12.0",
+    "content_in_root": false,
+    "render_readme": true
+} 
