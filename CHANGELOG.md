@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.0 (2025/05/11)
+_No changes in this release._
+
+
 ## v1.5.0b2 (2025/04/08)
 ### 🧰 Maintenance
 - [Minor code change for sourcery](https://github.com/RogerSelwyn/MS365-Calendar/commit/f5ee40e82843ffacaa989ffcb3f1516fe2219b44) - @RogerSelwyn
