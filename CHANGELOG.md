@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.6.0 (2025/06/03)
+### 🐛 Fixes
+- [Handle race condition for token update](https://github.com/RogerSelwyn/MS365-Contacts/commit/708cddc03289e262f811767875608d35856c9cf2) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.6.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/7ca584a3595c99fae7caf14f663ade543f85c184) - @RogerSelwyn
+
+
+
+
 ## v1.0.0 (2025/05/11)
 _No changes in this release._
 
