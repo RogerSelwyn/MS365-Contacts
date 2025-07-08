@@ -7,12 +7,13 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from homeassistant.core import HomeAssistant, ServiceCall
-
 from O365.address_book import (  # pylint: disable=no-name-in-module, import-error
     AddressBook,
     Contact,
 )
-from O365.utils.utils import Query  # pylint: disable=no-name-in-module
+from O365.utils.query import (  # pylint: disable=no-name-in-module, import-error
+    QueryBuilder,
+)
 
 from .const_integration import ATTR_EMAIL, ATTR_GIVEN_NAME, ATTR_SURNAME
 
@@ -24,20 +25,17 @@ class ContactServices:
         """Initialise the contact services."""
         self._hass = hass
         self._address_book: AddressBook = account.address_book()
+        self._builder = QueryBuilder(protocol=account.protocol)
 
     async def async_contacts_search(self, call: ServiceCall):  # pylint: disable=unused-argument
         """Search for contacts"""
-        query: Query = await self._hass.async_add_executor_job(
-            self._address_book.new_query
-        )
-        self._add_to_query(call.data, query, ATTR_GIVEN_NAME, "givenName")
-        self._add_to_query(call.data, query, ATTR_SURNAME, "surname")
+        query = self._builder.select()
+        query = self._add_to_query(call.data, query, ATTR_GIVEN_NAME, "givenName")
+        query = self._add_to_query(call.data, query, ATTR_SURNAME, "surname")
         if email := call.data.get(ATTR_EMAIL, None):
-            query.any(
+            query = query & self._builder.any(
                 collection="emailAddresses",
-                attribute="address",
-                operation="eq",
-                word=email,
+                filter_instance=self._builder.equals("address", email),
             )
 
         contacts = await self._hass.async_add_executor_job(
@@ -45,9 +43,10 @@ class ContactServices:
         )
         return {"contacts": [MS365Contact(contact) for contact in contacts]}
 
-    def _add_to_query(self, data, query: Query, ms365attr, msattr):
+    def _add_to_query(self, data, query: QueryBuilder, ms365attr, msattr):
         if attribute := data.get(ms365attr, None):
-            query.on_attribute(msattr).contains(attribute)
+            query = query & self._builder.contains(msattr, attribute)
+        return query
 
 
 @dataclass
