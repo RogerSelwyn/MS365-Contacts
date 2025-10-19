@@ -13,9 +13,10 @@ This integration forms part of a suite of integrations that replace the old [O36
 
 All the integrations are built to the same standard with the same authentication and configuration mechanism. All the integrations can use the same Entra ID App Registration and secret if desired.
 
+The general guidance for all the integrations can be found on the MS365 Home Assistant [Documentation](https://rogerselwyn.github.io/MS365-HomeAssistant/) page.
+
 # Microsoft 365 Contacts Integration for Home Assistant
 
 This integration enables:
 1. Provides a service for searching for contacts
 
-This project would not be possible without the wonderful [python-o365 project](https://github.com/O365/python-o365).
