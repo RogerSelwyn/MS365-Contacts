@@ -1,5 +1,44 @@
 # Changelog
 
+## v1.10.0 (2026/02/03)
+### ✨ Enhancements
+- [add tenant_id support for single-tenant app registrations](https://github.com/RogerSelwyn/MS365-Contacts/commit/cf145d79207cfc80b454681ac42a47340f0c2d83) - @RogerSelwyn
+
+### 🧰 Maintenance
+- [Migrate to new O365 query methods](https://github.com/RogerSelwyn/MS365-Contacts/commit/552ade6c3b678c3fbda899a949327cf9f59e57ae) - @RogerSelwyn
+- [Use ConfigFlowResult instead of FlowResult](https://github.com/RogerSelwyn/MS365-Contacts/commit/10199aee7db5735a548109d4890d8e9a2fee5a50) - @RogerSelwyn
+- [Tweaks for code improvement](https://github.com/RogerSelwyn/MS365-Contacts/commit/eaaf974021aed5889cf962edd304f6970fc23ac0) - @RogerSelwyn
+- [Updated JSON formatting](https://github.com/RogerSelwyn/MS365-Contacts/commit/60bdf6474b702c44285332965e9cb14568e704f1) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Add oauthlib dependency](https://github.com/RogerSelwyn/MS365-Contacts/commit/f5b887afd626dec8b6314ac5c38da921ca806e48) - @RogerSelwyn
+- [Bump ruff from 0.11.8 to 0.12.2](https://github.com/RogerSelwyn/MS365-Contacts/commit/83b379ad892419b046e8e11592a343730e651319) - @dependabot[bot]
+- [Bump ruff from 0.12.2 to 0.12.7](https://github.com/RogerSelwyn/MS365-Contacts/commit/906ba321129373265ae146b9f993d21eacf80257) - @dependabot[bot]
+- [Bump actions/checkout from 4 to 5](https://github.com/RogerSelwyn/MS365-Contacts/commit/9f5fa412ca4144ff8e071886ec2bc6d4082121f1) - @dependabot[bot]
+- [Bump actions/setup-python from 5 to 6](https://github.com/RogerSelwyn/MS365-Contacts/commit/1aa4ecd685beedbcd8fef10464513c50a9c2592c) - @dependabot[bot]
+- [Bump actions/stale from 9 to 10](https://github.com/RogerSelwyn/MS365-Contacts/commit/61a5bf73096b1185d99508bd941edcf49e93b771) - @dependabot[bot]
+- [Bump ruff from 0.12.7 to 0.13.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/772236fe1800b8a5605029f4928526e90aeea868) - @dependabot[bot]
+- [Bump ruff from 0.13.0 to 0.13.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/c9c6e77884ab1de0488c2953cb4c3338fdbb2e77) - @dependabot[bot]
+- [Bump github/codeql-action from 3 to 4](https://github.com/RogerSelwyn/MS365-Contacts/commit/1b9c2f0774fd38f0f7acb7bfafc5bcb71f6f2275) - @dependabot[bot]
+- [Bump ruff from 0.13.1 to 0.14.4](https://github.com/RogerSelwyn/MS365-Contacts/commit/bab05ce5b28c4491bf76f10876cc39ed4f1e14a1) - @dependabot[bot]
+- [Bump actions/checkout from 5 to 6](https://github.com/RogerSelwyn/MS365-Contacts/commit/e0a376a1c448ffa3fbb35cc3c00a62ea62763795) - @dependabot[bot]
+- [Auto update requirements.txt](https://github.com/RogerSelwyn/MS365-Contacts/commit/4e7469a9c442c290c04d1ce493336f25875e3e4d) - @actions-user
+
+### 📚 Documentation
+- [Update docs to point to generic docs](https://github.com/RogerSelwyn/MS365-Contacts/commit/0ad22cfaf611b36faf82e0516e3fa0c837634554) - @RogerSelwyn
+- [Update README.md](https://github.com/RogerSelwyn/MS365-Contacts/commit/3d3eaba45ff55fb744156eafc55386e88f3eb104) - @RogerSelwyn
+
+### ✅ Test
+- [Remove aiohttp-zlib-ng dependency](https://github.com/RogerSelwyn/MS365-Contacts/commit/9431dfddd9c684777315945002a0cb895c17c60a) - @RogerSelwyn
+- [Update python to 3.13](https://github.com/RogerSelwyn/MS365-Contacts/commit/7295d1bc22bc9b7d369c7d4feb1af67ffb024afb) - @RogerSelwyn
+- [Update test coverage handling](https://github.com/RogerSelwyn/MS365-Contacts/commit/25d79ceb77b4f308f3a4887436aeb6ca35feebb7) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.10.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/d69f43d509b95ee97154a4f940b06167cb30afac) - @RogerSelwyn
+
+
+
+
 ## v1.6.0 (2025/06/03)
 ### 🐛 Fixes
 - [Handle race condition for token update](https://github.com/RogerSelwyn/MS365-Contacts/commit/708cddc03289e262f811767875608d35856c9cf2) - @RogerSelwyn
