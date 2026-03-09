@@ -13,7 +13,7 @@ class MS365Mocks:
         mock_call(requests_mock, URL.ME, "me")
         mock_call(requests_mock, URL.CONTACTS, "contacts")
 
-    def cn21v_mocks(self, requests_mock):
+    def cn21v_mocks(self, requests_mock, tenant_id="common"):
         """Setup the standard mocks."""
         mock_call(requests_mock, CN21VURL.DISCOVERY, "discovery")
         # Mock the /common/ openid config with CN21V-specific URLs.
@@ -23,7 +23,8 @@ class MS365Mocks:
             "login.microsoftonline.com",
             "login.partner.microsoftonline.cn",
         )
-        requests_mock.get(CN21VURL.OPENID.value, text=openid_data)
+        url = CN21VURL.OPENID.value.replace("common", tenant_id)
+        requests_mock.get(url, text=openid_data)
         mock_call(requests_mock, CN21VURL.ME, "me")
         mock_call(requests_mock, CN21VURL.CONTACTS, "contacts")
 
