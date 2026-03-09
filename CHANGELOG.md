@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.10.1 (2026/03/09)
+### 🧰 Maintenance
+- [Add local brand logos](https://github.com/RogerSelwyn/MS365-Contacts/commit/2ed519c2308eec9cc4060aaf1d566e24502e9b5e) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Bump ruff from 0.14.4 to 0.15.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/078c0a52bd77b874d9e28ca6c0cec0a83c221016) - @dependabot[bot]
+- [Bump ruff from 0.15.0 to 0.15.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/81a6eabe0746cd311324669a40457fd497b37795) - @dependabot[bot]
+- [Bump ruff from 0.15.1 to 0.15.4](https://github.com/RogerSelwyn/MS365-Contacts/commit/72693e49bf7e1b8d0f1d40b2d558d7e4409231f7) - @dependabot[bot]
+
+### 🔖 Release
+- [Release v1.10.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/8aaf67470135c6dcb8fd365e8bb32886d43343ab) - @RogerSelwyn
+
+
+
+
 ## v1.10.0 (2026/02/03)
 ### ✨ Enhancements
 - [add tenant_id support for single-tenant app registrations](https://github.com/RogerSelwyn/MS365-Contacts/commit/cf145d79207cfc80b454681ac42a47340f0c2d83) - @RogerSelwyn
