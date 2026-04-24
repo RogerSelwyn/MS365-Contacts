@@ -1,5 +1,25 @@
 # Changelog
 
+## v1.11.0 (2026/04/24)
+### ✨ Enhancements
+- [Add support for MS365 GCC](https://github.com/RogerSelwyn/MS365-Contacts/commit/10a143e77b117f7b93eefeee0f9ef0948bbb76d1) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Update pygithub requirement from >=1.51 to >=2.9.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/8c0cbbbca421d66e258d332142bdf90520535dc5) - @dependabot[bot]
+- [Update portalocker requirement from >=3.1.1 to >=3.2.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/8e5775abc1fff51bab9cd1282c44f7375a5a6509) - @dependabot[bot]
+- [Update pytest-homeassistant-custom-component requirement](https://github.com/RogerSelwyn/MS365-Contacts/commit/04d43b49e1a0593f4f9d39644540fe2517629971) - @dependabot[bot]
+- [Update o365 requirement from >=2.1.4 to >=2.1.9](https://github.com/RogerSelwyn/MS365-Contacts/commit/38a3618b1fc194f7b699abba0a36fd62e342bd4c) - @dependabot[bot]
+- [Auto update requirements.txt](https://github.com/RogerSelwyn/MS365-Contacts/commit/a0d501bc7f9ce7294ff0ce443cb15533db9aa0b7) - @actions-user
+
+### ✅ Test
+- [Fix tests for CN21V](https://github.com/RogerSelwyn/MS365-Contacts/commit/947d794ae3f3cfb89bf137a69209058798a2f788) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.11.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/193cc7ceca62c95dce1f510132368a5c0254eba3) - @RogerSelwyn
+
+
+
+
 ## v1.10.1 (2026/03/09)
 ### 🧰 Maintenance
 - [Add local brand logos](https://github.com/RogerSelwyn/MS365-Contacts/commit/2ed519c2308eec9cc4060aaf1d566e24502e9b5e) - @RogerSelwyn
