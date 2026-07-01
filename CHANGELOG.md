@@ -1,5 +1,28 @@
 # Changelog
 
+## v1.11.1 (2026/07/01)
+### 🧰 Maintenance
+- [Updated to remove deprecation warning](https://github.com/RogerSelwyn/MS365-Contacts/commit/c6bd8a0827d2cd5831b25b0d3227e66f1fe905bc) - @RogerSelwyn
+- [Add integration diagnostics stub](https://github.com/RogerSelwyn/MS365-Contacts/commit/e9ee6d00d3532904b901a79cbccd9857a14f64ec) - @RogerSelwyn
+- [Add update requirements workflow](https://github.com/RogerSelwyn/MS365-Contacts/commit/7c9271b17e25816fdcbbe8302288078e3648d9e3) - @RogerSelwyn
+- [Correct workflow title](https://github.com/RogerSelwyn/MS365-Contacts/commit/d0622c873eb43ab7123630284369ab5d9299d84e) - @RogerSelwyn
+- [Split out update_requirements](https://github.com/RogerSelwyn/MS365-Contacts/commit/aa2752729e2db2d1192c8e5aaff4a2b0c7f069a9) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Update portalocker requirement from >=3.1.1 to >=3.2.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/50f356231a0ec130432fab08005bd21d713ba4d6) - @dependabot[bot]
+- [Update o365 requirement from >=2.1.4 to >=2.1.9](https://github.com/RogerSelwyn/MS365-Contacts/commit/7057f086b9506614bc6da926a58d99156ba3dd6f) - @dependabot[bot]
+- [Bump portalocker to 3.2.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/f40ded958fb16c59374edb9f4ef3dbcb8d46975d) - @RogerSelwyn
+
+### 📚 Documentation
+- [Update changelog with release notes](https://github.com/RogerSelwyn/MS365-Contacts/commit/b42431d5cbcea4ed5c521d76c8fe0220d5622d6b) - @actions-user
+- [Update countries available](https://github.com/RogerSelwyn/MS365-Contacts/commit/ed0c830c3c07cb03f2d85649d9e6884d79e00790) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.11.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/d770c27df2946ae038639db9216752fd903d4a84) - @RogerSelwyn
+
+
+
+
 ## v1.11.0 (2026/04/24)
 ### ✨ Enhancements
 - [Add support for MS365 GCC](https://github.com/RogerSelwyn/MS365-Contacts/commit/10a143e77b117f7b93eefeee0f9ef0948bbb76d1) - @RogerSelwyn
