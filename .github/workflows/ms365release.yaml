@@ -18,6 +18,7 @@ jobs:
 
   release_zip_file:
     name: Prepare release asset
+    needs: update_requirements
     runs-on: "ubuntu-latest"
     steps:
       - uses: "actions/checkout@v6"
