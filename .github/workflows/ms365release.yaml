@@ -1,5 +1,6 @@
 name: MS365 Release
 
+
 on:
   release:
     types: [published]
