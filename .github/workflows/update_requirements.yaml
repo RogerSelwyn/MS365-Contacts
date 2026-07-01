@@ -1,4 +1,4 @@
-name: HACS Validate
+name: Update Requirements
 
 on:
   push:
