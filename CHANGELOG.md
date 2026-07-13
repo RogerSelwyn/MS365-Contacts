@@ -126,6 +126,9 @@
 - [Release v1.6.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/7ca584a3595c99fae7caf14f663ade543f85c184) - @RogerSelwyn
 
 
+## Past Changes
+<details>
+  <summary>Changes 2025</summary>
 
 
 ## v1.0.0 (2025/05/11)
@@ -335,6 +338,9 @@ _No changes in this release._
 ### 🔖 Release
 - [Release v1.1.0](https://github.com/RogerSelwyn/MS365-Calendar/commit/c0f81e672e5a4021eef200f260e91e76d039d370) - @RogerSelwyn
 
+</details>
+<details>
+  <summary>Changes 2024</summary>
 
 ## v1.0.3 (2024/12/30)
 ### 🐛 Fixes
@@ -569,3 +575,4 @@ _No changes in this release._
 ## v0.0.1 (2024/05/29)
 Initial release
 
+</details>
