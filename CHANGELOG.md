@@ -1,5 +1,29 @@
 # Changelog
 
+## v1.11.2 (2026/07/13)
+### 🐛 Fixes
+- [Reinstate async_update_reload_and_abort to reload on reconfigure](https://github.com/RogerSelwyn/MS365-Contacts/commit/63bdc8aa312950b562f442d680d43ba86d7fd850) - @RogerSelwyn
+
+### 🧰 Maintenance
+- [Tidy up beautifulsoup](https://github.com/RogerSelwyn/MS365-Contacts/commit/538364b67331da96e0c810df93f0183c94d35336) - @RogerSelwyn
+- [Remove wokflow run on PR](https://github.com/RogerSelwyn/MS365-Contacts/commit/b532f64408ca25c654321efef013b41ac0e66dda) - @RogerSelwyn
+- [Update base to support extra platforms](https://github.com/RogerSelwyn/MS365-Contacts/commit/9cb7e0a54f1ff2f4b7731b1a7d25d50f0688c371) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Auto update requirements.txt](https://github.com/RogerSelwyn/MS365-Contacts/commit/43ed68739db4d91db4a392ba988068424fd3334c) - @actions-user
+- [Update to 0.13.344](https://github.com/RogerSelwyn/MS365-Contacts/commit/75ca17dc8858a2ff201f6ca4102db5efc274a924) - @RogerSelwyn
+- [Add versioning strategy to Dependabot config](https://github.com/RogerSelwyn/MS365-Contacts/commit/da33766159c0b8d375f57a25a12005eaec21ddc0) - @RogerSelwyn
+
+### ✅ Test
+- [Increase python version to HA default](https://github.com/RogerSelwyn/MS365-Contacts/commit/cf4db7ff21cb46d645fa4bbc484497c2e73b920d) - @RogerSelwyn
+- [Update workflows to UV](https://github.com/RogerSelwyn/MS365-Contacts/commit/94a09eb2a535e9a9ae93e63da91b51e02b4c53ae) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.11.2](https://github.com/RogerSelwyn/MS365-Contacts/commit/dd87c343fd01f6430926fb7784dceb5406cc97c4) - @RogerSelwyn
+
+
+
+
 ## v1.11.1 (2026/07/01)
 ### 🧰 Maintenance
 - [Updated to remove deprecation warning](https://github.com/RogerSelwyn/MS365-Contacts/commit/c6bd8a0827d2cd5831b25b0d3227e66f1fe905bc) - @RogerSelwyn
