@@ -1,9 +1,7 @@
-"""Services for the contacts integration"""
+"""Services for the contacts integration."""
 
-import functools as ft
-
-# import json
 from dataclasses import dataclass, field
+import functools as ft
 from typing import Any
 
 from homeassistant.core import HomeAssistant, ServiceCall
@@ -21,14 +19,14 @@ from .const_integration import ATTR_EMAIL, ATTR_GIVEN_NAME, ATTR_SURNAME
 class ContactServices:
     """Contact services."""
 
-    def __init__(self, hass: HomeAssistant, account):
+    def __init__(self, hass: HomeAssistant, account) -> None:
         """Initialise the contact services."""
         self._hass = hass
         self._address_book: AddressBook = account.address_book()
         self._builder = QueryBuilder(protocol=account.protocol)
 
     async def async_contacts_search(self, call: ServiceCall):  # pylint: disable=unused-argument
-        """Search for contacts"""
+        """Search for contacts."""
         query = self._builder.select()
         query = self._add_to_query(call.data, query, ATTR_GIVEN_NAME, "givenName")
         query = self._add_to_query(call.data, query, ATTR_SURNAME, "surname")
@@ -72,7 +70,8 @@ class MS365Contact:
     preferred_language: str = field(init=False, repr=True)
     personal_notes: str = field(init=False, repr=True)
 
-    def __init__(self, contact: Contact):
+    def __init__(self, contact: Contact) -> None:
+        """Initialise the contact data class."""
         self.given_name = contact.name
         self.surname = contact.surname
         self.title = contact.title

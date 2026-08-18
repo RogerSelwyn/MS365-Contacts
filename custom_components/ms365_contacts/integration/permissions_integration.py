@@ -2,21 +2,17 @@
 
 from copy import deepcopy
 
+from homeassistant.core import HomeAssistant
+
 from ..classes.permissions import BasePermissions
-from ..const import (
-    CONF_SHARED_MAILBOX,
-    PERM_BASE_PERMISSIONS,
-    PERM_SHARED,
-)
-from .const_integration import (
-    PERM_CONTACTS_READ,
-)
+from ..const import CONF_SHARED_MAILBOX, PERM_BASE_PERMISSIONS, PERM_SHARED
+from .const_integration import PERM_CONTACTS_READ
 
 
 class Permissions(BasePermissions):
     """Class in support of building permission sets."""
 
-    def __init__(self, hass, config, token_backend):
+    def __init__(self, hass: HomeAssistant, config, token_backend) -> None:
         """Initialise the class."""
         super().__init__(hass, config, token_backend)
 

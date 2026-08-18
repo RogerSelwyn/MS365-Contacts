@@ -1,8 +1,9 @@
 """Contact constants."""
 
-import homeassistant.helpers.config_validation as cv
 import voluptuous as vol
+
 from homeassistant.const import Platform
+import homeassistant.helpers.config_validation as cv
 
 PLATFORMS: list[Platform] = []
 DOMAIN = "ms365_contacts"
