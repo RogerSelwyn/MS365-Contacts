@@ -6,17 +6,6 @@ nav_order: 4
 # Installation and Configuration
 This page details the configuration details for this integration. General instructions can be found on the MS365 Home Assistant [Installation and Configuration](https://rogerselwyn.github.io/MS365-HomeAssistant/installation_and_configuration.html) page.
 
-1. Navigate to the Integrations section
-1. Add this repository as a Custom Repository (Integration) via the menu at top right.
-1. Search for "Microsoft 365 To Do"
-1. Select "Install this repository"
-1. Restart Home Assistant
-1. Go to the Home Assistant Devices configuration page
-1. Click "Add Integration"
-1. Search for "Microsoft 365 Contacts"
-1. Click on the result, and follow the prompts.
-
-
 ### Configuration variables
 
 Key | Type | Required | Description
