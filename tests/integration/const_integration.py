@@ -11,9 +11,7 @@ from custom_components.ms365_contacts.const import (  # noqa: F401
     OAUTH_REDIRECT_URL,
     CountryOptions,
 )
-from custom_components.ms365_contacts.integration.const_integration import (
-    DOMAIN,  # noqa: F401
-)
+from custom_components.ms365_contacts.integration.const_integration import DOMAIN  # noqa: F401
 
 from ..const import CLIENT_ID, CLIENT_SECRET, ENTITY_NAME
 
@@ -63,14 +61,10 @@ FULL_INIT_ENTITY_NO = 0
 class URL(Enum):
     """List of URLs."""
 
-    OPENID = (
-        "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration"
-    )
+    OPENID = "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration"
     ME = "https://graph.microsoft.com/v1.0/me"
     CONTACTS = "https://graph.microsoft.com/v1.0/me/contacts"
-    SHARED_CONTACTS = (
-        "https://graph.microsoft.com/v1.0/users/jane.doe@nomail.com/contacts"
-    )
+    SHARED_CONTACTS = "https://graph.microsoft.com/v1.0/users/jane.doe@nomail.com/contacts"
 
 
 class CN21VURL(Enum):

@@ -32,9 +32,7 @@ async def test_shared_permissions(
     base_config_entry: MS365MockConfigEntry,
 ) -> None:
     """Test shared permissions."""
-    assert (
-        "Contacts.Read.Shared" in base_config_entry.runtime_data.permissions.permissions
-    )
+    assert "Contacts.Read.Shared" in base_config_entry.runtime_data.permissions.permissions
 
 
 async def test_missing_permissions(
@@ -47,9 +45,7 @@ async def test_missing_permissions(
     build_token_file(tmp_path, "")
 
     base_config_entry.add_to_hass(hass)
-    with patch(
-        "homeassistant.helpers.issue_registry.async_create_issue"
-    ) as mock_async_create_issue:
+    with patch("homeassistant.helpers.issue_registry.async_create_issue") as mock_async_create_issue:
         await hass.config_entries.async_setup(base_config_entry.entry_id)
 
     assert "Minimum required permissions: 'Contacts.Read'" in caplog.text

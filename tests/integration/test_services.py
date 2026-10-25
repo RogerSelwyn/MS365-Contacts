@@ -2,14 +2,11 @@
 """Test service usage."""
 
 import pytest
+from requests_mock import Mocker
 
 from homeassistant.core import HomeAssistant
 
-from requests_mock import Mocker
-
-
 from ..conftest import MS365MockConfigEntry
-
 from .const_integration import DOMAIN
 from .helpers_integration.mocks import MS365MOCKS
 
