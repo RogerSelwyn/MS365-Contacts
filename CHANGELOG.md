@@ -1,5 +1,46 @@
 # Changelog
 
+## v1.13.0 (2026/10/29)
+### 🐛 Fixes
+- [Show reconfigure succesful transalation](https://github.com/RogerSelwyn/MS365-Contacts/commit/d62582d21d336b68e8aad474f993d6f3aeab0091) - @RogerSelwyn
+
+### 🧰 Maintenance
+- [Remove double reload after config change](https://github.com/RogerSelwyn/MS365-Contacts/commit/39576c1dec621a5c659db3632dbc097225496e15) - @RogerSelwyn
+- [Update to HA Ruff standards](https://github.com/RogerSelwyn/MS365-Contacts/commit/5e799e6904db71eeae76f3941b73a66608738144) - @RogerSelwyn
+- [Remove deprecated attribute](https://github.com/RogerSelwyn/MS365-Contacts/commit/e45d6a9c59939b73a2339af1288e73ffd925d597) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [Bump actions/setup-python from 6 to 7](https://github.com/RogerSelwyn/MS365-Contacts/commit/dd2a4ee49fbeca1950efb4187dca2702186c48dd) - @dependabot[bot]
+- [Bump github/codeql-action from 4 to 4.37.4](https://github.com/RogerSelwyn/MS365-Contacts/commit/f3d8f7684c4a6e8c1450401d9924ec9df14bae25) - @dependabot[bot]
+- [Bump actions/stale from 10 to 11](https://github.com/RogerSelwyn/MS365-Contacts/commit/74e7ac11d643c80cc738d8d72efba5bd72e808f8) - @dependabot[bot]
+- [Bump astral-sh/setup-uv from 8.1.0 to 10.0.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/c300b558ec76f44211770d46fd6c9deb88e30e00) - @dependabot[bot]
+- [Bump ruff from 0.15.4 to 0.16.3](https://github.com/RogerSelwyn/MS365-Contacts/commit/112601de49d3d58b80de56267bbd4c9a23e50691) - @dependabot[bot]
+- [Update pytest-homeassistant-custom-component requirement](https://github.com/RogerSelwyn/MS365-Contacts/commit/82c6e1ee1b910a7664afd805effcd6bb0ae551cc) - @dependabot[bot]
+- [Bump astral-sh/setup-uv from 10.0.1 to 10.2.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/03bda5de2ccfae1abfad33c0f774f4cfba1a350d) - @dependabot[bot]
+- [Bump github/codeql-action from 4.37.4 to 4.38.2](https://github.com/RogerSelwyn/MS365-Contacts/commit/1b0158917053b470a77ab819217f57b3e9db1fc1) - @dependabot[bot]
+- [Bump ruff from 0.16.3 to 0.16.9](https://github.com/RogerSelwyn/MS365-Contacts/commit/550df32cd1c52fdd4517e94d9cb395985db7ee4a) - @dependabot[bot]
+- [Update pygithub requirement from >=2.9.1 to >=2.10.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/c6b3d1c98c2f3d9c2c72f47b85f6dbfd17800dff) - @dependabot[bot]
+- [Bump astral-sh/setup-uv from 10.2.0 to 10.3.2](https://github.com/RogerSelwyn/MS365-Contacts/commit/6b91b363d5170eca66746f884ef3d26a9894d801) - @dependabot[bot]
+- [Bump ruff from 0.16.9 to 0.17.2](https://github.com/RogerSelwyn/MS365-Contacts/commit/546c488b41074e01d65f0937a2b0c7cb6d2cf212) - @dependabot[bot]
+- [Bump github/codeql-action from 4.38.2 to 4.39.1](https://github.com/RogerSelwyn/MS365-Contacts/commit/80985eb981948954d5e32bb4ccd7474746bc87dd) - @dependabot[bot]
+- [Update pytest-homeassistant-custom-component requirement](https://github.com/RogerSelwyn/MS365-Contacts/commit/bf7de44a4591db7440d91084a06fa54b1d38f3d2) - @dependabot[bot]
+
+### 📚 Documentation
+- [Tidy up changelog](https://github.com/RogerSelwyn/MS365-Contacts/commit/ec234c1c1fa30aa4452704cc2302f0b396106136) - @RogerSelwyn
+- [Update badge links in README.md](https://github.com/RogerSelwyn/MS365-Contacts/commit/1e44365759ae4bdf73de824929ff51d98de9186f) - @RogerSelwyn
+- [Update installation instructions for integrations](https://github.com/RogerSelwyn/MS365-Contacts/commit/96fe189db9ca6874e336013e0b5096ff17d6bf5e) - @RogerSelwyn
+
+### ✅ Test
+- [Add missing newline](https://github.com/RogerSelwyn/MS365-Contacts/commit/ae7dc4f4c5bb16c3df145e4402e430560fb06742) - @RogerSelwyn
+- [Format tests with Ruff](https://github.com/RogerSelwyn/MS365-Contacts/commit/dd0fb8dcf6cc3dd25a8f6599680e66dc28965518) - @RogerSelwyn
+
+### 🔖 Release
+- [Bump HA Core to 2025.6.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/c6c29f309bab98ba6a4f3ec1931f9ac50cc3b2a2) - @RogerSelwyn
+- [Release v1.13.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/74b8e99ce0b4223cefd897bdc34570ef3bfe840b) - @RogerSelwyn
+
+
+
+
 ## v1.11.2 (2026/07/13)
 ### 🐛 Fixes
 - [Reinstate async_update_reload_and_abort to reload on reconfigure](https://github.com/RogerSelwyn/MS365-Contacts/commit/63bdc8aa312950b562f442d680d43ba86d7fd850) - @RogerSelwyn
