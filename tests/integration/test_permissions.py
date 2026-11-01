@@ -35,6 +35,16 @@ async def test_shared_permissions(
     assert "Contacts.Read.Shared" in base_config_entry.runtime_data.permissions.permissions
 
 
+@pytest.mark.parametrize("base_token", ["Contacts.ReadWrite"], indirect=True)
+async def test_higher_permissions(
+    hass: HomeAssistant,
+    setup_base_integration,
+    base_config_entry: MS365MockConfigEntry,
+) -> None:
+    """Test higher permissions allows setup."""
+    assert "Contacts.ReadWrite" in base_config_entry.runtime_data.permissions.permissions
+
+
 async def test_missing_permissions(
     tmp_path,
     hass: HomeAssistant,

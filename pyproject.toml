@@ -525,12 +525,9 @@ asyncio_default_fixture_loop_scope = "function"
 [tool.coverage.report]
 exclude_also = [
     'if not constraint and resource == "Presence"',
-    'build_entity_id',
     'setup_integration.async_extra_platform_setup',
     'setup_integration.async_integration_remove_entry',
-    'self._check_higher_permissions',
     'if operation == "ReadBasic"',
-    'if newperm in self.permissions',
     'response\["YAML"\]',
     'add_attribute_to_item'
     ]
