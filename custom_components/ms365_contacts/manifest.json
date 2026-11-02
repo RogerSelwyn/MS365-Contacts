@@ -1,6 +1,7 @@
 {
   "domain": "ms365_contacts",
   "name": "Microsoft 365 - Contacts",
+  "categories": ["productivity_information"],
   "codeowners": ["@RogerSelwyn"],
   "config_flow": true,
   "dependencies": ["http"],
