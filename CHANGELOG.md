@@ -1,5 +1,29 @@
 # Changelog
 
+## v1.14.0 (2026/11/05)
+### ✨ Enhancements
+- [Add External Secret support](https://github.com/RogerSelwyn/MS365-Contacts/commit/931fa1f9c5b68634b7376bbdc0f10cf30ed68d44) - @RogerSelwyn
+
+### 🧰 Maintenance
+- [Remove unrequired method check](https://github.com/RogerSelwyn/MS365-Contacts/commit/f5274f46077e1f99345be827134ff5028ce378d1) - @RogerSelwyn
+- [Add categories and bump HA core to 2026.11.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/949a045a25cd60f1d3d6509b0f60c74af2ee2cb9) - @RogerSelwyn
+- [Remove redundant delete_issues](https://github.com/RogerSelwyn/MS365-Contacts/commit/6cb83a0f00838d6ddeda4e981a209db3d045dc71) - @RogerSelwyn
+- [Config entry methods now return None](https://github.com/RogerSelwyn/MS365-Contacts/commit/4728bf7d5533751c7df049e6e2e3b56e7f37d904) - @RogerSelwyn
+- [Config entry unload methods should return None](https://github.com/RogerSelwyn/MS365-Contacts/commit/893d1dd3d845667e58b71428e4fb80654387461c) - @RogerSelwyn
+- [Config entry unload methods should return None](https://github.com/RogerSelwyn/MS365-Contacts/commit/fac6c9a6970e12b5ff9e8e5a612d097066563f61) - @RogerSelwyn
+
+### ✅ Test
+- [Migrate to pytest_homeassistant](https://github.com/RogerSelwyn/MS365-Contacts/commit/b5624244243aaa5b88cf7c6de7f45ac1bf2c4c61) - @RogerSelwyn
+- [Update testing for completeness](https://github.com/RogerSelwyn/MS365-Contacts/commit/95cb750cf21aded4207276d820293197c8449432) - @RogerSelwyn
+- [Add test for higher permissions](https://github.com/RogerSelwyn/MS365-Contacts/commit/8a3b539bb89a0aa6c4445211c20b5cdd9446a568) - @RogerSelwyn
+- [Add environment secret default to tests](https://github.com/RogerSelwyn/MS365-Contacts/commit/5a90e0032d7e0c4e66d2d24ce7f6468bd0e7696d) - @RogerSelwyn
+
+### Other
+- [Revert "maint: Remove unrequired method check"](https://github.com/RogerSelwyn/MS365-Contacts/commit/b05603bc464a3b9db220a547c4022afd1ea9418e) - @RogerSelwyn
+
+
+
+
 ## v1.13.0 (2026/10/29)
 ### 🐛 Fixes
 - [Show reconfigure succesful transalation](https://github.com/RogerSelwyn/MS365-Contacts/commit/d62582d21d336b68e8aad474f993d6f3aeab0091) - @RogerSelwyn
