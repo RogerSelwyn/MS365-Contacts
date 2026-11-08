@@ -57,6 +57,7 @@
     }
   },
   "options": {
+    "step": {},
     "abort": {
       "no_options": "No options to modify"
     }
