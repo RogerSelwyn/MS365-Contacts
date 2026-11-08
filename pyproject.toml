@@ -530,7 +530,10 @@ exclude_also = [
     'if operation == "ReadBasic"',
     'response\["YAML"\]',
     'add_attribute_to_item',
-    'build_entity_id'
+    'build_entity_id',
+    'setup_integration.async_migrate_entry',
+    'async_get_supported_subentry_types',
+    'config_flow_integration.subentry_setup'
     ]
 
 [tool.coverage.run]

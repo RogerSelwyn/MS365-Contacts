@@ -22,10 +22,6 @@ SHARED_TOKEN_PERMS = "Contacts.Read.Shared"
 UPDATE_TOKEN_PERMS = None
 UPDATE_OPTIONS = None
 
-MIGRATION_CONFIG_ENTRY = {
-    "options": {},
-}
-
 DIAGNOSTIC_GRANTED_PERMISSIONS = [
     "Contacts.Read",
     "User.Read",

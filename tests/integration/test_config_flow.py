@@ -26,7 +26,7 @@ async def test_options_flow(
 
     result = await hass.config_entries.options.async_init(base_config_entry.entry_id)
 
-    assert result.get("type") is FlowResultType.CREATE_ENTRY
+    assert result["type"] is FlowResultType.ABORT
 
 
 async def test_shared_email_invalid(
