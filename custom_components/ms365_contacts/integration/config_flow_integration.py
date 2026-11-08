@@ -1,6 +1,6 @@
 """Configuration flow for the skyq platform."""
 
-import voluptuous as vol
+import probatio
 
 from homeassistant import config_entries
 from homeassistant.config_entries import ConfigFlowResult
@@ -16,7 +16,7 @@ INRTEGRATION_CONFIG_MINOR_VERSION = 0
 def integration_reconfigure_schema(entry_data):
     """Extend the schema with integration specific attributes."""
     return {
-        vol.Optional(
+        probatio.Optional(
             CONF_SHARED_MAILBOX,
             description={"suggested_value": entry_data.get(CONF_SHARED_MAILBOX, None)},
         ): cv.string,

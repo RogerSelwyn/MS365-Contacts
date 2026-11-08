@@ -1,6 +1,6 @@
 """Contact constants."""
 
-import voluptuous as vol
+import probatio
 
 from homeassistant.const import Platform
 import homeassistant.helpers.config_validation as cv
@@ -14,10 +14,10 @@ ATTR_SURNAME = "surname"
 
 PERM_CONTACTS_READ = "Contacts.Read"
 
-CONTACTS_SEARCH_SCHEMA = vol.Schema(
+CONTACTS_SEARCH_SCHEMA = probatio.Schema(
     {
-        vol.Optional(ATTR_GIVEN_NAME): cv.string,
-        vol.Optional(ATTR_SURNAME): cv.string,
-        vol.Optional(ATTR_EMAIL): cv.string,
+        probatio.Optional(ATTR_GIVEN_NAME): cv.string,
+        probatio.Optional(ATTR_SURNAME): cv.string,
+        probatio.Optional(ATTR_EMAIL): cv.string,
     }
 )
