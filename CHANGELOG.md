@@ -1,5 +1,50 @@
 # Changelog
 
+## v1.15.0 (2026/11/21)
+### ✨ Enhancements
+- [Add birthday to returned contacts](https://github.com/RogerSelwyn/MS365-Contacts/commit/49547638df9ecb62eb802679375e5b15d2408c05) - @RogerSelwyn
+
+### 🐛 Fixes
+- [Add missing translations](https://github.com/RogerSelwyn/MS365-Contacts/commit/b6cf4488f2ff8d77d6b1891021c0963334aa8344) - @RogerSelwyn
+- [Add missing translations](https://github.com/RogerSelwyn/MS365-Contacts/commit/4254bc7bc85f41f83b6a75d645ba3476ea09b2be) - @RogerSelwyn
+
+### 🧰 Maintenance
+- [Changes in support of Mail and remove O365 migration support](https://github.com/RogerSelwyn/MS365-Contacts/commit/6abe8570a2f6b4b9aad9739cb5c8d8d28df14dd5) - @RogerSelwyn
+- [Fix hassfest reported "error"](https://github.com/RogerSelwyn/MS365-Contacts/commit/6aab34ec90cbf985b2367b8364f2d536c10e4f7e) - @RogerSelwyn
+- [Replace voluptuous with probatio](https://github.com/RogerSelwyn/MS365-Contacts/commit/c4d919dca15b7177d605e546f7cb00a7eafc6a0f) - @RogerSelwyn
+- [Configure Renovate and remove Dependabot](https://github.com/RogerSelwyn/MS365-Contacts/commit/f24fb1a9c062e00fed245d7200ea70e92372402b) - @RogerSelwyn
+- [Add support for personal account identification](https://github.com/RogerSelwyn/MS365-Contacts/commit/161aa6fe0402a605d26cf1b0fc2294e30fe129ac) - @RogerSelwyn
+- [Minor code tidy up](https://github.com/RogerSelwyn/MS365-Contacts/commit/a78665635f35ef0b07b3bb309519246ddcb622e5) - @RogerSelwyn
+- [Update workflows](https://github.com/RogerSelwyn/MS365-Contacts/commit/efa22cdc7596e4d79651fdd5a93b60e0e69d8805) - @RogerSelwyn
+- [Use central renovate config](https://github.com/RogerSelwyn/MS365-Contacts/commit/a8e6cbb8dc0fb2a3b4553be44d0edd55e25bce4a) - @RogerSelwyn
+- [Add support for integration specific migrations](https://github.com/RogerSelwyn/MS365-Contacts/commit/dc742f5144842e29adb5aa7a149798c2cabea946) - @RogerSelwyn
+
+### ⬆️ Dependencies
+- [update astral-sh/setup-uv action to v10.3.3](https://github.com/RogerSelwyn/MS365-Contacts/commit/b831151577f634ee320fa7617afbfb8c5901f898) - @renovate[bot]
+- [update dependency ruff to v0.17.4](https://github.com/RogerSelwyn/MS365-Contacts/commit/0c569961fba7d9ed92285a397bfaa8db093abd08) - @renovate[bot]
+- [update github/codeql-action action to v4.39.3](https://github.com/RogerSelwyn/MS365-Contacts/commit/ecfb4a7f7d0f048287c290b0c97f17c9f954c974) - @renovate[bot]
+- [update dependency python to 3.15](https://github.com/RogerSelwyn/MS365-Contacts/commit/972a6fe8df51c588917b04c15c547fea9820f1d1) - @renovate[bot]
+- [update dependency ruff to v0.17.5 (#117)](https://github.com/RogerSelwyn/MS365-Contacts/commit/b952dec8f0a35e030376c0192702ac062cc55d2f) - @renovate[bot]
+- [update dependency ruff to v0.17.6 (#118)](https://github.com/RogerSelwyn/MS365-Contacts/commit/c0d483fd32b4accee2518e30ee53c60e7d5566c0) - @renovate[bot]
+- [update github/codeql-action action to v4.39.4 (#119)](https://github.com/RogerSelwyn/MS365-Contacts/commit/03ab0046063bf28b6bd6cbd6dd9e04dabf7b652a) - @renovate[bot]
+- [update astral-sh/setup-uv action to v10.4.0 (#120)](https://github.com/RogerSelwyn/MS365-Contacts/commit/4c2db05cbf24f20f0f6bf232f55a382b363b750c) - @renovate[bot]
+- [Auto update requirements.txt](https://github.com/RogerSelwyn/MS365-Contacts/commit/b17154aeb074bf12e1797fbf7723b373cd9b5e7a) - @actions-user
+
+### ✅ Test
+- [Change test HA to 2026.11.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/8465960726f5adb592a2b412ba53341a210defa1) - @RogerSelwyn
+- [Add testing support for personal accounts](https://github.com/RogerSelwyn/MS365-Contacts/commit/3a9ee0c6ab3fd8ba23af31702db075a14917aaa5) - @RogerSelwyn
+- [Update testing requirements](https://github.com/RogerSelwyn/MS365-Contacts/commit/d142722b8f93f8fda51c7b27e69971721fa77ef2) - @RogerSelwyn
+
+### 🔖 Release
+- [Release v1.15.0](https://github.com/RogerSelwyn/MS365-Contacts/commit/6934c86739d8184ab7d613b557dc1784dcdd034f) - @RogerSelwyn
+
+### Other
+- [Add Home Assistant Marketplace badge to README](https://github.com/RogerSelwyn/MS365-Contacts/commit/468d64cc54299940a76b808e13ddcc1a7cf2a77d) - @RogerSelwyn
+- [Add renovate.json](https://github.com/RogerSelwyn/MS365-Contacts/commit/6ae6e550c243882d994dc8caca65ed765944ffb2) - @renovate[bot]
+
+
+
+
 ## v1.14.0 (2026/11/05)
 ### ✨ Enhancements
 - [Add External Secret support](https://github.com/RogerSelwyn/MS365-Contacts/commit/931fa1f9c5b68634b7376bbdc0f10cf30ed68d44) - @RogerSelwyn
