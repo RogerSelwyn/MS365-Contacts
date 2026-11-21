@@ -5,13 +5,8 @@ import functools as ft
 from typing import Any
 
 from homeassistant.core import HomeAssistant, ServiceCall
-from O365.address_book import (  # pylint: disable=no-name-in-module, import-error
-    AddressBook,
-    Contact,
-)
-from O365.utils.query import (  # pylint: disable=no-name-in-module, import-error
-    QueryBuilder,
-)
+from O365.address_book import AddressBook, Contact  # pylint: disable=no-name-in-module, import-error
+from O365.utils.query import QueryBuilder  # pylint: disable=no-name-in-module, import-error
 
 from .const_integration import ATTR_EMAIL, ATTR_GIVEN_NAME, ATTR_SURNAME
 
@@ -69,6 +64,7 @@ class MS365Contact:
     other_address: dict = field(init=False, repr=True)
     preferred_language: str = field(init=False, repr=True)
     personal_notes: str = field(init=False, repr=True)
+    birthday: str = field(init=False, repr=True)
 
     def __init__(self, contact: Contact) -> None:
         """Initialise the contact data class."""
@@ -89,3 +85,4 @@ class MS365Contact:
         self.other_address = contact.other_address
         self.preferred_language = contact.preferred_language
         self.personal_notes = contact.personal_notes
+        self.birthday = contact.birthday
